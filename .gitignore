@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+artifacts/
+artifacts_test/
+runs/
+testapp/repo/
+testapp/ground_truth.json
+.pytest_cache/
+*.log

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RootCause-QA | Autonomous QA Agent & Root-Cause Analysis</title>
+  <meta name="description" content="Autonomous QA agent that explores web apps in a real browser, reproduces bugs on video, and traces failures to culprit git commits.">
+
+  <!-- Google Fonts: Fraunces, Public Sans, IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,600&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a href="#app" class="skip-link">Skip to main content</a>
+
+  <header class="top-bar" role="banner">
+    <div class="top-bar-inner">
+      <a href="#/" class="wordmark" aria-label="RootCause-QA Home">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/>
+          <line x1="1.05" y1="12" x2="7" y2="12"/>
+          <line x1="17" y1="12" x2="22.95" y2="12"/>
+        </svg>
+        RootCause-QA
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#/" class="nav-link active">Runs</a></li>
+          <li><a href="#/new" class="nav-link">New run</a></li>
+          <li><a href="#/about" class="nav-link">How it works</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" role="main" tabindex="-1">
+    <!-- Populated by vanilla JS router -->
+    <div class="skeleton" style="height: 120px; margin-bottom: 2rem;"></div>
+    <div class="skeleton" style="height: 250px;"></div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer-inner">
+      <span>RootCause-QA &mdash; Autonomous QA Explorer & Root-Cause Attribution</span>
+      <span>Light theme lab notebook design system</span>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
